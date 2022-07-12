@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.cabecalho{
+    height: 85px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #00000012;
+}
+.cabecalho img{
+    width: 164px;
+    height: 52px;
+    margin-top: 16px;
+    margin-left: 50px;
+    margin-bottom: 17;
+}
+.cabecalho nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 8px 12px;
+
+}
+.cabecalho nav a{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    padding: 16px;
+    margin: 20px;
+    width: 150px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+.botao1{
+    background: #0A99FE;
+    color: #FFFFFF;
+}
+.botao2{
+    background: rgba(10, 153, 254, 0.1);
+    color: #0A99FE;
+}
+.secao01 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+.secao01 h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: 	#1B1B1B;
+    margin-top: 20px;
+
+}
+.secao01 ul{
+    display: flex;
+    overflow-x: auto;
+    margin-top: 30px;
+}
+.secao01 ul li{
+    width: 207px;
+    height: 275px;
+    text-align: center;
+    background-color: #F8F8F8;
+    border: solid 1px #00000012;
+    border-radius: 8px;
+    margin: 26px;
+}
+.secao01 ul li h3{
+    font-size: 20px;
+    margin: 8px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+.secao01 ul li h3 p{
+    font-size: 16px;
+    font-weight: 400;
+}
+.secao01 ul li img{
+    border-radius: 8px;
+    width: 207px;
+    height: 207px;
+}
+.secao02{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+.secao02 h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: 	#1B1B1B;
+    margin-top: 30px;
+}
+.secao02 ul{
+    display: flex;
+    overflow-x: auto;
+    margin-top: 30px;
+}
+ul::-webkit-scrollbar{
+    background: rgba(10, 153, 254, 0.1);
+}
+.secao02 ul li{
+    width: 207px;
+    height: 275px;
+    text-align: center;
+    background-color: #F8F8F8;
+    border: solid 1px #00000012;
+    border-radius: 8px;
+    margin: 26px;
+}
+.secao02 ul li h3{
+    font-size: 20px;
+    margin: 8px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+.secao02 ul li h3 p{
+    font-size: 16px;
+    font-weight: 400;
+}
+.secao02 ul li img{
+    border-radius: 8px;
+    width: 207px;
+    height: 207px;
+}
