@@ -39,6 +39,5 @@ let secaoBonecos = document.querySelector('.bonecos')
     tagLi.appendChild(tagNome)
     tagLi.appendChild(tagValor)
 
-console.log(tagLi)
     return tagLi
  }
