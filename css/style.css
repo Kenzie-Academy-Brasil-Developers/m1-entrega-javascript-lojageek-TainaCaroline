@@ -37,6 +37,14 @@
     color: #FFFFFF;
 }
 .botao2{
+    background: #0A99FE;
+    color: #FFFFFF;
+}
+.botao1:hover{
+    background: rgba(10, 153, 254, 0.1);
+    color: #0A99FE;
+}
+.botao2:hover{
     background: rgba(10, 153, 254, 0.1);
     color: #0A99FE;
 }

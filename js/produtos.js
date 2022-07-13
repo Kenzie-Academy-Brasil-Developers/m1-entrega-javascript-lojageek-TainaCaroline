@@ -40,5 +40,6 @@ let produtos = [
         img: 'pocahontas.jpg',
         nome: 'Pocahontas',
         valor: 89.99
-    }, 
+    },
+     
 ]
